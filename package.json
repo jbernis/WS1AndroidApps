@@ -1,0 +1,31 @@
+{
+  "name": "caplight",
+  "version": "0.0.1",
+  "chromium-args": "--disable-devtools",
+  "node-main": "./bin/www",
+  "node-remote": "http://localhost:8000",
+  "main": "http://localhost:8000",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "window": {
+    "title": "WS1 UTILS",
+    "name": "WS1 UTILS",
+    "icon": "./build/logo128.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 1096,
+    "height": 640,
+    "position": "center"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "jsonfile": "^6.0.1",
+    "morgan": "~1.9.1"
+  }
+}
